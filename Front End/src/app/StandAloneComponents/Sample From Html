@@ -1,0 +1,133 @@
+<div class="card">
+    <div class="card-body">
+        <form novalidate="" class="ng-untouched ng-pristine ng-invalid ng-submitted">
+            <div class="mb-3"><label>Full Name</label><input type="text" formcontrolname="fullname"
+                    class="form-control ng-untouched ng-pristine ng-invalid is-invalid">
+                <div class="invalid-feedback">
+                    <div> Fullname is required </div>
+                </div>
+            </div>
+            <div class="mb-3"><label>Username</label><input type="text" formcontrolname="username"
+                    class="form-control ng-untouched ng-pristine ng-invalid is-invalid">
+                <div class="invalid-feedback">
+                    <div> Username is required </div>
+                </div>
+            </div>
+            <div class="mb-3"><label>Email</label><input type="text" formcontrolname="email"
+                    class="form-control ng-untouched ng-pristine ng-invalid is-invalid">
+                <div class="invalid-feedback">
+                    <div>Email is required</div>
+                </div>
+            </div>
+            <div class="mb-3"><label>Password</label><input type="password" formcontrolname="password"
+                    class="form-control ng-untouched ng-pristine ng-invalid is-invalid">
+                <div class="invalid-feedback">
+                    <div> Password is required </div>
+                </div>
+            </div>
+            <div class="mb-3"><label>Confirm Password</label><input type="password"
+                    formcontrolname="confirmPassword"
+                    class="form-control ng-untouched ng-pristine ng-invalid is-invalid">
+                <div class="invalid-feedback">
+                    <div> Confirm Password is required </div>
+                </div>
+            </div>
+            <div class="mb-3 form-check"><input type="checkbox" formcontrolname="acceptTerms"
+                    class="form-check-input ng-untouched ng-pristine ng-invalid is-invalid"><label for="acceptTerms"
+                    class="form-check-label">I have read and agree to the Terms</label>
+                <div class="invalid-feedback"> Accept Terms is required </div>
+            </div>
+            <div class="button-group"><button type="submit" class="btn btn-info">Register</button><button
+                    type="button" class="btn btn-danger float-right"> Reset </button></div>
+        </form>
+    </div>
+</div>
+<div _ngcontent-ng-c4102107745="" class="row">
+    <div _ngcontent-ng-c4102107745="" class="col-12">
+        <div _ngcontent-ng-c4102107745="" class="card">
+            <div _ngcontent-ng-c4102107745="" class="card-body">
+                <h4 _ngcontent-ng-c4102107745="" class="card-title">Project Assigning</h4>
+                <h6 _ngcontent-ng-c4102107745="" class="card-subtitle"> This is the basic horizontal form with labels on
+                    left and form controls on right in one line. To use add class <code
+                        _ngcontent-ng-c4102107745="">form-horizontal</code> to the form tag and give class <code
+                        _ngcontent-ng-c4102107745="">row</code></h6>
+            </div>
+            <hr _ngcontent-ng-c4102107745="">
+            <form _ngcontent-ng-c4102107745="" class="form-horizontal">
+                <div _ngcontent-ng-c4102107745="" class="card-body">
+                    <h4 _ngcontent-ng-c4102107745="" class="card-title">Personal Info</h4>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="fname"
+                            class="col-sm-3 text-end control-label col-form-label">First Name</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="text" id="fname" placeholder="First Name Here" class="form-control"></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="lname"
+                            class="col-sm-3 text-end control-label col-form-label">Last Name</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="text" id="lname" placeholder="Last Name Here" class="form-control"></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="email1"
+                            class="col-sm-3 text-end control-label col-form-label">Email</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="email" id="email1" placeholder="Email Here" class="form-control"></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="cono1"
+                            class="col-sm-3 text-end control-label col-form-label">Contact No</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="text" id="cono1" placeholder="Contact No Here" class="form-control"></div>
+                    </div>
+                </div>
+                <hr _ngcontent-ng-c4102107745="">
+                <div _ngcontent-ng-c4102107745="" class="card-body">
+                    <h4 _ngcontent-ng-c4102107745="" class="card-title">Requirements</h4>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="com1"
+                            class="col-sm-3 text-end control-label col-form-label">Company</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="text" id="com1" placeholder="Company Name Here" class="form-control"></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745=""
+                            class="col-sm-3 text-end control-label col-form-label">Interested In</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><select _ngcontent-ng-c4102107745=""
+                                class="form-control">
+                                <option _ngcontent-ng-c4102107745="">Choose Your Option</option>
+                                <option _ngcontent-ng-c4102107745="">Desiging</option>
+                                <option _ngcontent-ng-c4102107745="">Development</option>
+                                <option _ngcontent-ng-c4102107745="">Videography</option>
+                            </select></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745=""
+                            class="col-sm-3 text-end control-label col-form-label">Budget</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><select _ngcontent-ng-c4102107745=""
+                                class="form-select">
+                                <option _ngcontent-ng-c4102107745="">Choose Your Option</option>
+                                <option _ngcontent-ng-c4102107745="">Less then $5000</option>
+                                <option _ngcontent-ng-c4102107745="">$5000 - $10000</option>
+                                <option _ngcontent-ng-c4102107745="">$10000 - $20000</option>
+                            </select></div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745=""
+                            class="col-sm-3 text-end control-label col-form-label">Select File</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9">
+                            <div _ngcontent-ng-c4102107745="" class="input-group mb-3"><span
+                                    _ngcontent-ng-c4102107745="" class="input-group-text">Upload</span><input
+                                    _ngcontent-ng-c4102107745="" type="file" id="formFile" class="form-control"></div>
+                        </div>
+                    </div>
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 row"><label _ngcontent-ng-c4102107745="" for="abpro"
+                            class="col-sm-3 text-end control-label col-form-label">About Project</label>
+                        <div _ngcontent-ng-c4102107745="" class="col-sm-9"><input _ngcontent-ng-c4102107745=""
+                                type="text" id="abpro" placeholder="About Project Here" class="form-control"></div>
+                    </div>
+                </div>
+                <hr _ngcontent-ng-c4102107745="">
+                <div _ngcontent-ng-c4102107745="" class="card-body">
+                    <div _ngcontent-ng-c4102107745="" class="mb-3 mb-0 text-end button-group"><button
+                            _ngcontent-ng-c4102107745="" type="submit" class="btn btn-info waves-effect waves-light">
+                            Save </button><button _ngcontent-ng-c4102107745="" type="submit"
+                            class="btn btn-dark waves-effect waves-light"> Cancel </button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
